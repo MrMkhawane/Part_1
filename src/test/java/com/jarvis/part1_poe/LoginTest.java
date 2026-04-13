@@ -69,7 +69,7 @@ public class LoginTest {
     public void testCheckCellPhoneNumber() {
         System.out.println("checkCellPhoneNumber");
         Login login = new Login();
-        String phone_number = "08966553";
+        String phone_number = "+27718834885";
         boolean expResult = false;
         boolean result = login.checkCellPhoneNumber(phone_number);
         assertEquals(expResult, result);

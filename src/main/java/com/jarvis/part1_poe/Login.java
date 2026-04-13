@@ -141,10 +141,10 @@ public class Login {
     }
 
     //Checking cell phone number if it's valid or not
-    public  boolean checkCellPhoneNumber(String phone_number){
+    public  boolean checkCellPhoneNumber(String phoneNumber){
 
         Pattern international_code = Pattern.compile("^\\+27\\d{9}$");
-        Matcher cell_phone_number = international_code.matcher(phone_number);
+        Matcher cell_phone_number = international_code.matcher(phoneNumber);
 
         if (cell_phone_number.matches()) {
             System.out.println("Cell phone number is valid.");

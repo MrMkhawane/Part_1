@@ -86,7 +86,7 @@ public class LoginTest {
         boolean is_username_valid = false;
         boolean is_password_valid = false;
         Login login = new Login();
-        login.setUsername("kyle!!!!!!");
+        login.setUsername("dtmk!!!!!!");
         login.setPassword("password");
         String expResult = "Username and password do not meet the requirements.\n";
         String result = login.registerUser(is_username_valid, is_password_valid);
@@ -101,10 +101,10 @@ public class LoginTest {
     public void testLoginUser() {
         System.out.println("loginUser");
         Login login = new Login();
-        String temp_username = "kyl_1";
+        String temp_username = "dt_26";
         String temp_password = "Ch&&sec@ke99!";
-        String temp_phonenumber = "+27838968976";
-        String login_username = "kyle!!!!!!";
+        String temp_phonenumber = "+277188348845";
+        String login_username = "dtmk!!!!!!";
         String login_password = "password";
         boolean expResult = false;
         boolean result = login.loginUser(temp_username, temp_password, temp_phonenumber, login_username, login_password);
@@ -119,10 +119,10 @@ public class LoginTest {
     public void testReturnLoginStatus() {
         System.out.println("returnLoginStatus");
         Login login = new Login();
-        String temp_username = "kyl_1";
+        String temp_username = "dt_26";
         String temp_password = "Ch&&sec@ke99!";
-        String temp_phonenumber = "+27838968976";
-        String login_username = "kyle!!!!!!";
+        String temp_phonenumber = "+27718854885";
+        String login_username = "dtmk!!!!!!";
         String login_password = "password";
         String Firstname = "Ditebogo";
         String Lastname = "Mkhawane";

@@ -147,7 +147,7 @@ public class Login {
         Matcher cell_phone_number = international_code.matcher(phone_number);
 
         if (cell_phone_number.matches()) {
-            System.out.println("Cell phone number successfully added.");
+            System.out.println("Cell phone number is valid.");
             return true;
         }
         else {

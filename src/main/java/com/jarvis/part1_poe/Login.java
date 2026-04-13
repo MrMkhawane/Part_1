@@ -34,7 +34,6 @@ public class Login {
     }
 
 
-    //Lastname
     public String getLastname(){
 
         return Lastname;

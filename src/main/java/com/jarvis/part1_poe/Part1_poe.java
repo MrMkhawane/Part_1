@@ -28,7 +28,7 @@ public class Part1_poe {
         do {
             //Firstname
             System.out.print("Enter your first name: ");
-            first_name = scan.nextLine();
+            String firstName = scan.nextLine();
         } while (first_name.isEmpty());
         login.setFirstname(first_name);
 

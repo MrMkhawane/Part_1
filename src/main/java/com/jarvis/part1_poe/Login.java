@@ -117,7 +117,7 @@ public class Login {
     public  boolean checkPasswordComplexity(String password){
 
         //password
-        String special_character = "[@&^$?/*%_()=<>:;!]";
+        String special_character = "[@&^$?/*%_()=<>:;!]";// special characters
         String digit = "\\d";
         String caps = "[A-Z]";
 

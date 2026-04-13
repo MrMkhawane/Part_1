@@ -23,7 +23,6 @@ public class Login {
     private String login_username;
     private String login_password;
 
-    //Firstname
     public String getFirstname(){
 
         return Firstname;

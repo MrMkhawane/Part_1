@@ -124,8 +124,8 @@ public class LoginTest {
         String temp_phonenumber = "+27838968976";
         String login_username = "kyle!!!!!!";
         String login_password = "password";
-        String Firstname = "Gomolemo";
-        String Lastname = "Dizamuhupe";
+        String Firstname = "Ditebogo";
+        String Lastname = "Mkhawane";
         String expResult = "Username or password incorrect please try again.\n";
         String result = login.returnLoginStatus(temp_username, temp_password, temp_phonenumber, login_username, login_password, Firstname, Lastname);
         assertEquals(expResult, result);
